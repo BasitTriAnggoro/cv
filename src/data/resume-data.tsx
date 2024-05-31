@@ -68,20 +68,20 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Online Shops Owner",
-      // link: "https://www.nokia.com",
+      link: "",
       badges: ["Full-time"],
       title: "Tiktokshop, Lazada, Shopee Seller",
-      // logo: NSNLogo,
+      logo: NSNLogo,
       start: "2020",
       end: "Present",
       description: "Selling products via Tiktokshop, Lazada & Shopee. Managing & running all activity in my online shop from doing research, marketing, selling, etc.",
     },
     {
       company: " Homeplan Startup - Apple Catalyst Program",
-      // link: "https://bsgroup.eu/",
+      link: "",
       badges: ["Hybrid - Fulltime"],
       title: "Co-Founder (COO) & Software Developer",
-      // logo: JojoMobileLogo,
+      logo: JojoMobileLogo,
       start: "2021",
       end: "2021",
       description:
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       link: "https://developeracademy.apps.binus.ac.id/",
       badges: ["Hybrid"],
       title: "Internship",
-      // logo: ClevertechLogo,
+      logo: ClevertechLogo,
       start: "2020",
       end: "2020",
       description:
@@ -100,10 +100,10 @@ export const RESUME_DATA = {
     },
     {
       company: "PT Mozaik Bintang Persada",
-      // link: "https://parabol.co",
+      link: "",
       badges: ["Offline"],
       title: "Internship",
-      // logo: ParabolLogo,
+      logo: ParabolLogo,
       start: "2019",
       end: "2019",
       description:
@@ -111,10 +111,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Pondok Yatim Nuraini",
-      // link: "https://www.nokia.com",
+      link: "",
       badges: [],
       title: "Freelance",
-      // logo: NSNLogo,
+      logo: NSNLogo,
       start: "2017",
       end: "Present",
       description: "Creating design for banners, flyer, brochure using Photoshop & Canva. Also develop orphans and indigent people for reading Quran properly.",
@@ -221,88 +221,4 @@ export const RESUME_DATA = {
     },
   ],
 
-
-
-
-
-  // additional
-  organizations: [
-    {
-      title: "Homeplan",
-      techStack: [" Apple Developer Academy", "Swift", "Sprite Kit", "UI Kit", "Core Data", "URL Session", "Laravel", "PostgreSQL", "Postman", "MVVM", "Git"],
-      description:
-        "An app that helps you estimate the cost of house renovation. You can easily get your detail cost and materials needed. It provides service for renovating house including contractors and materials. (iPhone, iPad, Android | in a team of 7)",
-      logo: MonitoLogo,
-      link: {
-        label: "Homeplan",
-        // href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Badmintech",
-      techStack: [
-        " Apple Developer Academy",
-        "Swift",
-        "Core ML",
-        "Create ML",
-        "Core Motion",
-        "Core Data",
-        "Replay Kit",
-        "AV Foundation",
-        "Watch Kit",
-        "Health Kit",
-        "MVC",
-        "Git"
-      ],
-      description: "Created during pandemic Covid-19. We provide this app for helping beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Badmintech",
-        href: "https://github.com/sherwin-yang/MC3-17",
-      },
-    },
-    {
-      title: "Sleepy",
-      techStack: [" Apple Developer Academy", "UI Kit", "AVFoundation", "MVC", "Git"],
-      description:
-        "An app to make you fall asleep quickly and wake up refreshed. Enjoy a large variety of nature sounds, instrumental sounds and meditation techniques to create your own bedtime experience. (iPhone | in a team of 4)",
-      logo: JarockiMeLogo,
-      link: {
-        label: "Sleepy",
-        href: "https://github.com/BasitTA/sleepy",
-      },
-    },
-    {
-      title: "Tasty Food",
-      techStack: ["Web FE Development", "React JS", "Vite", "Tailwind CSS", "Material UI"],
-      description:
-        "Provide various food recipes from many countries all over the world",
-      logo: Minimal,
-      link: {
-        label: "Tasty Food",
-        href: "https://basitta.github.io/react-menu-makanan/",
-      },
-    },
-    {
-      title: "Admission System Web (Pondok Yatim Nuraini)",
-      techStack: ["Laravel", "Bootstrap", "SAW Method", "TOPSIS Method"],
-      description:
-        "Website for selecting new students who will enter the orphanage. Using combination of SAW & TOPSIS Method",
-      logo: BarepapersLogo,
-      link: {
-        label: "Admission System Aplication (Pondok Yatim Nuraini)",
-        href: "https://github.com/BasitTA/spk-ptn",
-      },
-    },
-    {
-      title: "Dare App - Mozaik Project",
-      techStack: ["Laravel"],
-      description: "Provide information to make children dare about challenges in their live",
-      logo: YearProgressLogo,
-      link: {
-        label: "Dare App - Mozaik Project",
-        href: "https://github.com/BasitTA/projek-mozaik/",
-      },
-    },
-  ],
 } as const;
