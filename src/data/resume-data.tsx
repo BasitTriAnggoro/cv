@@ -219,6 +219,16 @@ export const RESUME_DATA = {
         href: "https://github.com/BasitTA/bettaFish-commerce",
       },
     },
+    {
+      title: "I'm actively working on updating my portfolio projects..",
+      techStack: ["Coming Soon.."],
+      description: "👷🏻‍♂️🛠️🏗️",
+      logo: YearProgressLogo,
+      link: {
+        label: "Coming Soon..",
+        href: "",
+      },
+    },
   ],
 
 } as const;
