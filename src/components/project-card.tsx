@@ -12,13 +12,18 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  imgLink?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, imgLink }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
+        {/* <iframe className="h-full max-h-max w-full"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe> */}
+          <img src={imgLink} alt="" />  
           <CardTitle className="text-base">
             {link ? (
               <a
@@ -39,6 +44,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           <CardDescription className="font-mono text-xs">
             {description}
           </CardDescription>
+          
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex">

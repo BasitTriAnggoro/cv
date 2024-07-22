@@ -183,6 +183,23 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Certificates</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            {RESUME_DATA.certificates.map((certificate) => {
+              return (
+                <ProjectCard
+                  key={certificate.title}
+                  title={certificate.title}
+                  description={certificate.description}
+                  tags={certificate.techStack}
+                  link={"link" in certificate ? certificate.link.href : undefined}
+                  imgLink={"imgLink" in certificate ? certificate.imgLink.href : undefined}
+                />
+              );
+            })}
+          </div>
+        </Section>
       </section>
 
       <CommandMenu
