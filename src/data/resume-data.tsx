@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, ChromeIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Basit Tri Anggoro",
@@ -44,11 +44,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/basit-tri-anggoro",
         icon: LinkedInIcon,
       },
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: XIcon,
-      // },
+      {
+        name: "Website",
+        url: "https://cv-basittas-projects.vercel.app/",
+        icon: ChromeIcon,
+      },
     ],
   },
   education: [
@@ -232,7 +232,7 @@ export const RESUME_DATA = {
   ],
   certificates: [
     {
-      title: "Apple Developer Academy : Februari 2020 - December 2020",
+      title: "Apple Developer Academy",
       techStack: ["Internship","Apple"],
       description:
       "",
@@ -247,8 +247,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Web Development for Beginner : Jadi Fullstack Web Developer dari Front End sampai Back End”",
-      techStack: ["IT Certificate","Edspert.id"],
+      title: "JavaScript Intermediate",
+      techStack: ["IT Certificate","Sololearn"],
       description:
       "",
       logo: Minimal,
@@ -258,12 +258,12 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1zRlkqZIEDoe9FEJhhgb1kEXElz34dsM_",
+        href: "https://lh3.googleusercontent.com/d/11xWYs13eKjCjuG_XYJ9Nrv2ODLdeuWol",
       },
     },
     {
-      title: "Clean Code Principles with Java & Getting Started with Spring Boot",
-      techStack: ["IT Webinar","HIMIT PENS x Blibli"],
+      title: "Introduction to JavaScript",
+      techStack: ["IT Certificate","Sololearn"],
       description:
       "",
       logo: Minimal,
@@ -273,7 +273,22 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1ARyjgCqS0CkOxLV15apPK9HoNxzhB7kl",
+        href: "https://lh3.googleusercontent.com/d/12umQZT60BtSt7h6xugxJir10yOP6627q",
+      },
+    },
+    {
+      title: "The Web Developer Bootcamp 2024",
+      techStack: ["IT Certificate","Udemy"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1go8h5-mKJzyn6xq0ZzJLMfJNXGFk-Fsw",
       },
     },
     {
@@ -322,8 +337,83 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Web Development for Beginner: Jadi Fullstack Web Developer dari Front End sampai Back End”",
+      techStack: ["IT Webinar","Edspert.id"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1zRlkqZIEDoe9FEJhhgb1kEXElz34dsM_",
+      },
+    },
+    {
+      title: "Telecom Customer Churn Prediction Using Machine Learning & Python",
+      techStack: ["IT Webinar","Boot Up"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1nsUX89J7jHWaFS2s_79bC-oRr5eml4k4",
+      },
+    },
+    {
+      title: "Clean Code Principles with Java & Getting Started with Spring Boot",
+      techStack: ["IT Webinar","HIMIT PENS x Blibli"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1ARyjgCqS0CkOxLV15apPK9HoNxzhB7kl",
+      },
+    },
+    {
+      title: "Kupas Tuntas Software Development Engineer In Test: Backend & Frontend Testing 101",
+      techStack: ["IT Webinar","Alterra"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1foKWYoyQKaaWYuFu83IeWD1zn1yNl2wm",
+      },
+    },
+    {
+      title: "Mobile Development (Web Developer)",
+      techStack: ["Internship","PT. Mozaik Bintang Persada"],
+      description:
+      "",
+      logo: Minimal,
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1hnwpFu8ckncIOsiE2uWhhOprNowCXWcE",
+      },
+    },
+    {
       title: "Through the Era of Digital Revolution",
-      techStack: ["IT Seminar","Himti UIN Jakarta"],
+      techStack: ["IT Webinar","Permira Kazan"],
       description:
       "",
       logo: Minimal,
@@ -333,12 +423,12 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/18NYr-6uabq-k9pzd0Tb4yTNQ1d1ZC7GY",
+        href: "https://lh3.googleusercontent.com/d/1tFlrocUBCbkvrQS-fc3kE2mc8MUJjADw",
       },
     },
     {
-      title: "Make Up Your Mind and Become an Entrepreneur",
-      techStack: ["Entrepreneurship Seminar","Genbi UIN Jakarta"],
+      title: "Road to Congress Permira XIX",
+      techStack: ["IT Seminar","Permira Kazan"],
       description:
       "",
       logo: Minimal,
@@ -348,12 +438,12 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/13yXaL4-EHKmvf-rGEGuTQBaAz3E25sCa",
+        href: "https://lh3.googleusercontent.com/d/1IK9-d_iu4RtImhhjBV__5SuM0jKMCVuu",
       },
     },
     {
-      title: "Delegasi Mahasiswa Road to Congress Permira XIX Kazan",
-      techStack: ["Webinar Himpunan","HIMTI X Permira Kazan"],
+      title: "Building Business with Technology",
+      techStack: ["IT Seminar","HIMTI UIN JAKARTA"],
       description:
       "",
       logo: Minimal,
@@ -363,7 +453,7 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1LwEtlcgEr-9ckNBccd6EjyKHBpvsCK6s",
+        href: "https://lh3.googleusercontent.com/d/1rillIH4rU1h62-8VHrgTgZNC58sDkpBU",
       },
     },
   ],
