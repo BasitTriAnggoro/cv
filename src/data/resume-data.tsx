@@ -144,6 +144,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Toko Sepatu Boss - Solo Project",
+      techStack: ["Web FE Development", "React JS", "create-react-app", "Bootstrap"],
+      description:
+      "Shoes Website - Landing Page Design",
+      logo: Minimal,
+      link: {
+        label: "Toko Sepatu Boss",
+        href: "https://basitta.github.io/toko-sepatu-boss/",
+      },
+    },
+    {
       title: "Admission System Web (Pondok Tahfidz Nuraini)",
       techStack: ["Laravel", "Bootstrap", "SAW Method", "TOPSIS Method"],
       description:
