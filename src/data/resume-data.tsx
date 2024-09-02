@@ -141,6 +141,7 @@ export const RESUME_DATA = {
       "Responsive Web that provides various food recipes from many countries all over the world. Getting API data from https://www.themealdb.com.",
       logo: Minimal,
       videoSrc: 'menu-new.mov',
+      gifSrc: '',
       link: {
         label: "Tasty Food",
         href: "https://basitta.github.io/react-menu-makanan/",
@@ -153,6 +154,7 @@ export const RESUME_DATA = {
       "Responsive Shoes Website - Landing Page Design",
       logo: Minimal,
       videoSrc: 'sepatu-new.mov',
+      gifSrc: '',
       link: {
         label: "Toko Sepatu Boss",
         href: "https://basitta.github.io/toko-sepatu-boss/",
@@ -164,6 +166,7 @@ export const RESUME_DATA = {
       description: "Small commerce for selling betta fish",
       logo: YearProgressLogo,
       videoSrc: 'betta-fish.mov',
+      gifSrc: '',
       link: {
         label: "Betta Fish Commerce - Solo Project",
         href: "https://github.com/BasitTA/bettaFish-commerce",
@@ -176,6 +179,7 @@ export const RESUME_DATA = {
       "New student admission system in Pondok Tahfidz Nuraini Tangerang, using combination of SAW & TOPSIS Methodologies",
       logo: BarepapersLogo,
       videoSrc: 'spk-new.mov',
+      gifSrc: '',
       link: {
         label: "Admission System Aplication (Pondok Yatim Nuraini)",
         href: "https://github.com/BasitTA/spk-ptn",
@@ -188,6 +192,7 @@ export const RESUME_DATA = {
         "An app that helps you estimate the cost of house renovation. You can easily get your detail cost and materials needed. It provides service for renovating house including contractors and materials. (iPhone, iPad, Android | in a team of 7)",
       logo: MonitoLogo,
       videoSrc: 'homeplan.mp4',
+      gifSrc: '',
       link: {
         label: "Homeplan",
         href: "https://drive.google.com/file/d/1wxM-q81FUWD_Ch3wa4tTBhi36wDnZgQT/view?usp=drive_link",
@@ -200,6 +205,7 @@ export const RESUME_DATA = {
       description: "During pandemic Covid-19 we help people for staying healthy. Badmintech helps beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
       logo: ConsultlyLogo,
       videoSrc: 'badmintech.mp4',
+      gifSrc: '',
       link: {
         label: "Badmintech",
         href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
@@ -212,6 +218,7 @@ export const RESUME_DATA = {
         "An app to make you fall asleep quickly and wake up refreshed. Enjoy a large variety of nature sounds, instrumental sounds and meditation techniques to create your own bedtime experience. (iPhone | in a team of 4)",
       logo: JarockiMeLogo,
       videoSrc: "",
+      gifSrc: '',
       link: {
         label: "Sleepy",
         href: "https://github.com/BasitTA/sleepy",
@@ -223,6 +230,7 @@ export const RESUME_DATA = {
       description: "Provide information to make children dare about challenges in their live",
       logo: YearProgressLogo,
       videoSrc: "",
+      gifSrc: '',
       link: {
         label: "Dare App - Mozaik Project",
         href: "https://github.com/BasitTA/projek-mozaik/",
@@ -247,7 +255,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -263,7 +271,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -279,7 +287,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -295,7 +303,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -311,7 +319,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -327,7 +335,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -343,7 +351,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -359,7 +367,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -375,7 +383,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -391,7 +399,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -407,7 +415,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -423,7 +431,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -439,7 +447,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -455,7 +463,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -471,7 +479,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -487,7 +495,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -503,7 +511,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -519,7 +527,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -535,7 +543,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -551,7 +559,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
@@ -567,7 +575,7 @@ export const RESUME_DATA = {
       description:
       "",
       logo: Minimal,
-      videoSrc: "none",
+      videoSrc: "",
       link: {
         label: "Certificate",
         href: "",
