@@ -13,6 +13,7 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  gifSrc?: string;
   videoSrc?: string;
   imgLink?: string;
 }
