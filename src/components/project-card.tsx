@@ -62,10 +62,7 @@ export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, 
               ''
           }
           {
-            gifSrc ? 
-              <img src={gifSrc} />
-              :
-              ''
+            gifSrc ? <img src={gifSrc} /> : ''
           }
           <CardDescription className="font-mono text-xs">
             {description}
