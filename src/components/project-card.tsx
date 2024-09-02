@@ -7,22 +7,24 @@ import {
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 
+
 interface Props {
   title: string;
   description: string;
   tags: readonly string[];
   link?: string;
+  videoSrc?: string;
   imgLink?: string;
 }
 
-export function ProjectCard({ title, description, tags, link, imgLink }: Props) {
+
+export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, imgLink }: Props) {
+  
+  // console.log('adsfasf')
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
-        {/* <iframe className="h-full max-h-max w-full"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe> */}
           <img src={imgLink} alt="" />  
           <CardTitle className="text-base">
             {link ? (
@@ -41,12 +43,36 @@ export function ProjectCard({ title, description, tags, link, imgLink }: Props) 
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
+          {
+            videoSrc ? 
+              <video
+                src={videoSrc}
+                // width="640px" 
+                // height="360px"
+                autoPlay={true}
+                controls={true}
+                loop={true}
+                muted={true}
+                // poster="https://via.placeholder.com/640x360.png?text=Video+Placeholder"
+              >
+                Your browser does not support the video tag.
+              </video>
+              :
+              ''
+          }
+          {
+            gifSrc ? 
+              <img src={gifSrc} />
+              :
+              ''
+          }
           <CardDescription className="font-mono text-xs">
             {description}
           </CardDescription>
           
         </div>
       </CardHeader>
+      
       <CardContent className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
           {tags.map((tag) => (
