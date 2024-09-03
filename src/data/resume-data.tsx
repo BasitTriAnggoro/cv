@@ -241,6 +241,7 @@ export const RESUME_DATA = {
       techStack: [],
       description: "👷🏻‍♂️🛠️🏗️",
       logo: YearProgressLogo,
+      videoSrc: "",
       gifSrc: "coming-soon.gif",
       link: {
         label: "Coming Soon..",
