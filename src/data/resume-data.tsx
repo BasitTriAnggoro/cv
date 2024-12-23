@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Tangerang, Indonesia",
   locationLink: "https://maps.app.goo.gl/r1GWdXdbT4KYFaEW9",
   about:
-    "I am a Frontend Developer skilled in HTML, CSS, JavaScript, React.js, Swift, and PHP. I am highly dedicated and constantly learning. I have completed several small projects that helped me understand the fundamentals of frontend development and industry best practices.",
+    "📱 Junior iOS Developer | Apple Developer Academy Alumni | Passionate About Building User-Centric Apps 📱\n\nHi, I’m iOS Developer! I hold a degree in Information Technology from Syarif Hidayatullah State Islamic University Jakarta. I completed a two-year internship at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.",
   summary:
-    "I’m passionate about creating appealing and user-friendly apps. Currently deep dive in frontend web development using React.js. I actively follow online courses and participate in developer communities to stay updated with the latest trends. I am looking for an opportunity to join a dynamic team and learn from experienced professionals. I love doing research about business, technology, and self-development.",
+    "After a three-year break focused on personal growth, I rediscovered my passion for iOS development and have been actively honing my skills in Swift and UIKit by working on both personal and team projects:\n- Homeplan 🏠 | App for renovating home\n- Badmintech 🏸 | Badminton learning platform\n- Sleepy 😴 | Pre-sleep meditation for better rest\n\n🌟 What I Bring:\n- Experienced in Swift, UIKit, and Apple development tools\n- Experience collaborating on app development projects\n- Strong problem-solving mindset and eagerness to grow\n\nI’m excited to contribute my skills and enthusiasm to a forward-thinking team as a Junior iOS Developer. Let’s connect and build something great together! 🚀",
   avatarUrl: "basit-profile.jpeg",
   personalWebsiteUrl: "__",
   contact: {
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BasitTA",
+        url: "https://github.com/BasitTriAnggoro",
         icon: GitHubIcon,
       },
       {
@@ -121,14 +121,15 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "iOS Development",
+    "Swift",
+    "UIKit",
+    "Mobile Development",
     "Web Development",
     "Front-End Development",
-    "JavaScript",
     "React JS",
     "Tailwind CSS",
     "Bootstrap",
-    "iOS Development",
-    "Swift",
     "Agile Application Development",
     "Git",
     // "Laravel",
