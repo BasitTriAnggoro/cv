@@ -113,216 +113,17 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Agile Application Development",
-    "iOS Development",
-    "Swift",
-    "UIKit",
-    "Git",
-    "Mobile Development",
-    "Web Development",
-    "Front-End Development",
-    "React JS",
-    "Tailwind CSS",
-    "Bootstrap",
+    "iOS Mobile Development (Swift)",
+    "Collaboration Tools (Git, Jira, Trello, Notion, etc)",
+    "Front-End Web Development (React JS)"
+    // "Tailwind CSS",
+    // "Bootstrap",
     // "Laravel",
   ],
   projects: [
     {
-      title: "Badmintech - Apple Developer Academy Project",
-      techStack: [ " Apple Developer Academy", "Mobile Development", "Swift Programming Language", "Core ML", "Create ML", "Core Motion", "Core Data", "Replay Kit", "AV Foundation", "Watch Kit", "Health Kit", "MVC", "Git"
-      ],
-      description: "During pandemic Covid-19 we help people for staying healthy. Badmintech helps beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
-      logo: ConsultlyLogo,
-      videoSrc: 'badmintech.mp4',
-      gifSrc: '',
-      link: {
-        label: "Badmintech",
-        href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
-      },
-    },
-    {
-      title: "Clima - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Core Location", "URL Session", "MVC", "Git"
-      ],
-      description: "Prepare your uniform before its getting cold! 🥶",
-      logo: ConsultlyLogo,
-      videoSrc: 'clima.mp4',
-      gifSrc: '',
-      link: {
-        label: "Clima",
-        href: "https://github.com/BasitTriAnggoro/Clima",
-      },
-    },
-    {
-      title: "ByteCoin - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "URL Session", "MVC", "Git"
-      ],
-      description: "Get your BTC rate now! 🤑",
-      logo: ConsultlyLogo,
-      videoSrc: 'bytecoin.mp4',
-      gifSrc: '',
-      link: {
-        label: "ByteCoin",
-        href: "https://github.com/BasitTriAnggoro/Byte-Coin",
-      },
-    },
-    {
-      title: "Quizzler - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "MVC", "Git"
-      ],
-      description: "Choose your answer!",
-      logo: ConsultlyLogo,
-      videoSrc: 'quizzler.mp4',
-      gifSrc: '',
-      link: {
-        label: "Quizzler",
-        href: "https://github.com/BasitTriAnggoro/Quizzler",
-      },
-    },
-    {
-      title: "Xylophone - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "AVFoundation", "Git"
-      ],
-      description: "Convey your musical skill!",
-      logo: ConsultlyLogo,
-      videoSrc: 'xylophone.mp4',
-      gifSrc: '',
-      link: {
-        label: "Xylophone",
-        href: "https://github.com/BasitTriAnggoro/Xylophone",
-      },
-    },
-    {
-      title: "Tipsy - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Application for splitting bill with your friends",
-      logo: ConsultlyLogo,
-      videoSrc: 'tipsy.mp4',
-      gifSrc: '',
-      link: {
-        label: "Tipsy",
-        href: "https://github.com/BasitTriAnggoro/Tipsy",
-      },
-    },
-    {
-      title: "Dice - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Roll the dice! ",
-      logo: ConsultlyLogo,
-      videoSrc: 'Dice.mp4',
-      gifSrc: '',
-      link: {
-        label: "Dice",
-        href: "https://github.com/BasitTriAnggoro/Dice",
-      },
-    },
-    {
-      title: "Destini - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Choose story, based on user options",
-      logo: ConsultlyLogo,
-      videoSrc: 'Destini.mp4',
-      gifSrc: '',
-      link: {
-        label: "Destini",
-        href: "https://github.com/BasitTriAnggoro/Destini",
-      },
-    },
-    {
-      title: "BMICalculator - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Application for counting the BMI",
-      logo: ConsultlyLogo,
-      videoSrc: 'bmicalculator.mp4',
-      gifSrc: '',
-      link: {
-        label: "BMICalculator",
-        href: "https://github.com/BasitTriAnggoro/BMI-Calculator",
-      },
-    },
-    {
-      title: "EggTimer - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Enjoy your egg fellas!",
-      logo: ConsultlyLogo,
-      videoSrc: 'eggtimer.mp4',
-      gifSrc: '',
-      link: {
-        label: "EggTimer",
-        href: "https://github.com/BasitTriAnggoro/Egg-Timer",
-      },
-    },
-    {
-      title: "GoPlan - Solo Project",
-      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
-      ],
-      description: "Plan and stay motivate 😊",
-      logo: ConsultlyLogo,
-      videoSrc: 'goplan.mp4',
-      gifSrc: '',
-      link: {
-        label: "GoPlan",
-        href: "https://github.com/BasitTriAnggoro/Go-Plan",
-      },
-    },
-    {
-      title: "Tasty Food - Solo Project",
-      techStack: ["FE Web Development", "Javascript Programming Language", "React JS", "Vite", "Tailwind CSS", "Material UI", "Git"],
-      description:
-      "Responsive Web that provides various food recipes from many countries all over the world. Getting API data from https://www.themealdb.com.",
-      logo: Minimal,
-      videoSrc: 'menu-new.mp4',
-      gifSrc: '',
-      link: {
-        label: "Tasty Food",
-        href: "https://basitta.github.io/react-menu-makanan/",
-      },
-    },
-    {
-      title: "Toko Sepatu Boss - Solo Project",
-      techStack: ["FE Web Development", "Javascript Programming Language", "React JS", "create-react-app", "Bootstrap", "Git"],
-      description:
-      "Responsive Shoes Website - Landing Page Design",
-      logo: Minimal,
-      videoSrc: 'sepatu-new.mp4',
-      gifSrc: '',
-      link: {
-        label: "Toko Sepatu Boss",
-        href: "https://basitta.github.io/toko-sepatu-boss/",
-      },
-    },
-    {
-      title: "Betta Fish Commerce - Solo Project",
-      techStack: ["FE Web Development", "Javascript Programming Language", "Node JS", "Bootstrap", "Express.js", "MongoDB", "Mongoose", "Git"],
-      description: "Small commerce for selling betta fish",
-      logo: YearProgressLogo,
-      videoSrc: 'betta-fish.mp4',
-      gifSrc: '',
-      link: {
-        label: "Betta Fish Commerce - Solo Project",
-        href: "https://github.com/BasitTA/bettaFish-commerce",
-      },
-    },
-    {
-      title: "Student Admission System - Thesis Assignment",
-      techStack: ["Web Development", "PHP Programming Language", "Laravel", "Bootstrap", "SAW Method", "TOPSIS Method", "Git"],
-      description:
-      "New student admission system in Pondok Tahfidz Nuraini Tangerang, using combination of SAW & TOPSIS Methodologies",
-      logo: BarepapersLogo,
-      videoSrc: 'spk-new.mp4',
-      gifSrc: '',
-      link: {
-        label: "Admission System Aplication (Pondok Yatim Nuraini)",
-        href: "https://github.com/BasitTA/spk-ptn",
-      },
-    },
-    {
-      title: "Homeplan - Apple Developer Academy Project",
-      techStack: [" Apple Developer Academy", "Mobile Development", "Swift Programming Language", "Sprite Kit", "UI Kit", "Core Data", "URL Session", "Laravel", "PostgreSQL", "Postman", "MVVM", "Git"],
+      title: "Homeplan (Start-up)",
+      techStack: [" Apple Developer Academy", "Swift (iOS Mobile App)", "Sprite Kit", "UI Kit", "Core Data", "URL Session", "Laravel", "PostgreSQL", "Postman", "MVVM", "Git"],
       description:
         "An app that helps you estimate the cost of house renovation. You can easily get your detail cost and materials needed. It provides service for renovating house including contractors and materials. (iPhone, iPad, Android | in a team of 7)",
       logo: MonitoLogo,
@@ -334,8 +135,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Badmintech - Apple Developer Academy Project",
-      techStack: [ " Apple Developer Academy", "Mobile Development", "Swift Programming Language", "Core ML", "Create ML", "Core Motion", "Core Data", "Replay Kit", "AV Foundation", "Watch Kit", "Health Kit", "MVC", "Git"
+      title: "Badmintech",
+      techStack: [ " Apple Developer Academy", "Swift (iOS Mobile App)", "Core ML", "Create ML", "Core Motion", "Core Data", "Replay Kit", "AV Foundation", "Watch Kit", "Health Kit", "MVC", "Git"
       ],
       description: "During pandemic Covid-19 we help people for staying healthy. Badmintech helps beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
       logo: ConsultlyLogo,
@@ -347,8 +148,202 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Clima",
+      techStack: [ "Swift (iOS Mobile App)", "Core Location", "URL Session", "MVC", "Git"
+      ],
+      description: "Prepare your uniform before its getting cold! 🥶",
+      logo: ConsultlyLogo,
+      videoSrc: 'clima.mp4',
+      gifSrc: '',
+      link: {
+        label: "Clima",
+        href: "https://github.com/BasitTriAnggoro/Clima",
+      },
+    },
+    {
+      title: "ByteCoin",
+      techStack: [ "Swift (iOS Mobile App)", "URL Session", "MVC", "Git"
+      ],
+      description: "Get your BTC rate now! 🤑",
+      logo: ConsultlyLogo,
+      videoSrc: 'bytecoin.mp4',
+      gifSrc: '',
+      link: {
+        label: "ByteCoin",
+        href: "https://github.com/BasitTriAnggoro/Byte-Coin",
+      },
+    },
+    {
+      title: "Quizzler",
+      techStack: [ "Swift (iOS Mobile App)", "MVC", "Git"
+      ],
+      description: "Choose your answer!",
+      logo: ConsultlyLogo,
+      videoSrc: 'quizzler.mp4',
+      gifSrc: '',
+      link: {
+        label: "Quizzler",
+        href: "https://github.com/BasitTriAnggoro/Quizzler",
+      },
+    },
+    {
+      title: "Xylophone",
+      techStack: [ "Swift (iOS Mobile App)", "AVFoundation", "Git"
+      ],
+      description: "Convey your musical skill!",
+      logo: ConsultlyLogo,
+      videoSrc: 'xylophone.mp4',
+      gifSrc: '',
+      link: {
+        label: "Xylophone",
+        href: "https://github.com/BasitTriAnggoro/Xylophone",
+      },
+    },
+    {
+      title: "Tipsy",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Application for splitting bill with your friends",
+      logo: ConsultlyLogo,
+      videoSrc: 'tipsy.mp4',
+      gifSrc: '',
+      link: {
+        label: "Tipsy",
+        href: "https://github.com/BasitTriAnggoro/Tipsy",
+      },
+    },
+    {
+      title: "Dice",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Roll the dice! ",
+      logo: ConsultlyLogo,
+      videoSrc: 'Dice.mp4',
+      gifSrc: '',
+      link: {
+        label: "Dice",
+        href: "https://github.com/BasitTriAnggoro/Dice",
+      },
+    },
+    {
+      title: "Destini",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Choose story, based on user options",
+      logo: ConsultlyLogo,
+      videoSrc: 'Destini.mp4',
+      gifSrc: '',
+      link: {
+        label: "Destini",
+        href: "https://github.com/BasitTriAnggoro/Destini",
+      },
+    },
+    {
+      title: "BMICalculator",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Application for counting the BMI",
+      logo: ConsultlyLogo,
+      videoSrc: 'bmicalculator.mp4',
+      gifSrc: '',
+      link: {
+        label: "BMICalculator",
+        href: "https://github.com/BasitTriAnggoro/BMI-Calculator",
+      },
+    },
+    {
+      title: "EggTimer",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Enjoy your egg fellas!",
+      logo: ConsultlyLogo,
+      videoSrc: 'eggtimer.mp4',
+      gifSrc: '',
+      link: {
+        label: "EggTimer",
+        href: "https://github.com/BasitTriAnggoro/Egg-Timer",
+      },
+    },
+    {
+      title: "GoPlan",
+      techStack: [ "Swift (iOS Mobile App)", "Git"
+      ],
+      description: "Plan and stay motivate 😊",
+      logo: ConsultlyLogo,
+      videoSrc: 'goplan.mp4',
+      gifSrc: '',
+      link: {
+        label: "GoPlan",
+        href: "https://github.com/BasitTriAnggoro/Go-Plan",
+      },
+    },
+    {
+      title: "Tasty Food",
+      techStack: ["React JS (Front-end Website)", "Vite", "Tailwind CSS", "Material UI", "Git"],
+      description:
+      "Responsive Web that provides various food recipes from many countries all over the world. Getting API data from https://www.themealdb.com.",
+      logo: Minimal,
+      videoSrc: 'menu-new.mp4',
+      gifSrc: '',
+      link: {
+        label: "Tasty Food",
+        href: "https://basitta.github.io/react-menu-makanan/",
+      },
+    },
+    {
+      title: "Toko Sepatu Boss",
+      techStack: ["React JS (Front-end Website)", "create-react-app", "Bootstrap", "Git"],
+      description:
+      "Responsive Shoes Website - Landing Page Design",
+      logo: Minimal,
+      videoSrc: 'sepatu-new.mp4',
+      gifSrc: '',
+      link: {
+        label: "Toko Sepatu Boss",
+        href: "https://basitta.github.io/toko-sepatu-boss/",
+      },
+    },
+    {
+      title: "Betta Fish Commerce",
+      techStack: ["Node JS (Website App)", "Bootstrap", "Express.js", "MongoDB", "Mongoose", "Git"],
+      description: "Small commerce for selling betta fish",
+      logo: YearProgressLogo,
+      videoSrc: 'betta-fish.mp4',
+      gifSrc: '',
+      link: {
+        label: "Betta Fish Commerce - Solo Project",
+        href: "https://github.com/BasitTA/bettaFish-commerce",
+      },
+    },
+    {
+      title: "Student Admission System",
+      techStack: ["Thesis Assignment", "PHP (Website App)", "Laravel", "Bootstrap", "SAW Method", "TOPSIS Method", "Git"],
+      description:
+      "New student admission system in Pondok Tahfidz Nuraini Tangerang, using combination of SAW & TOPSIS Methodologies",
+      logo: BarepapersLogo,
+      videoSrc: 'spk-new.mp4',
+      gifSrc: '',
+      link: {
+        label: "Admission System Aplication (Pondok Yatim Nuraini)",
+        href: "https://github.com/BasitTA/spk-ptn",
+      },
+    },
+    // {
+    //   title: "Badmintech - Apple Developer Academy Project",
+    //   techStack: [ " Apple Developer Academy", "Mobile Development", "Swift Programming Language", "Core ML", "Create ML", "Core Motion", "Core Data", "Replay Kit", "AV Foundation", "Watch Kit", "Health Kit", "MVC", "Git"
+    //   ],
+    //   description: "During pandemic Covid-19 we help people for staying healthy. Badmintech helps beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
+    //   logo: ConsultlyLogo,
+    //   videoSrc: 'badmintech.mp4',
+    //   gifSrc: '',
+    //   link: {
+    //     label: "Badmintech",
+    //     href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
+    //   },
+    // },
+    {
       title: "Sleepy - Apple Developer Academy Project",
-      techStack: [" Apple Developer Academy", "Mobile Development", "Swift Programming Language", "UI Kit", "AVFoundation", "MVC", "Git"],
+      techStack: [" Apple Developer Academy", "Swift (iOS Mobile App)", "UI Kit", "AVFoundation", "MVC", "Git"],
       description:
         "An app to make you fall asleep quickly and wake up refreshed. Enjoy a large variety of nature sounds, instrumental sounds and meditation techniques to create your own bedtime experience. (iPhone | in a team of 4)",
       logo: JarockiMeLogo,
@@ -361,7 +356,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Dare App - Internship Project (PT. Mozaik Bintang Persada)",
-      techStack: ["Mobile Development", "PHP Programming Language", "Laravel", "Git"],
+      techStack: ["PHP (for Mobile App)", "Laravel", "Git"],
       description: "Provide information to make children dare about challenges in their live",
       logo: YearProgressLogo,
       videoSrc: "",
@@ -371,18 +366,18 @@ export const RESUME_DATA = {
         href: "https://github.com/BasitTA/projek-mozaik/",
       },
     },
-    {
-      title: "I'm actively working on updating my portfolio projects..",
-      techStack: [],
-      description: "👷🏻‍♂️🛠️🏗️",
-      logo: YearProgressLogo,
-      videoSrc: "",
-      gifSrc: "coming-soon.gif",
-      link: {
-        label: "Coming Soon..",
-        href: "",
-      },
-    },
+    // {
+    //   title: "I'm actively working on updating my portfolio projects..",
+    //   techStack: [],
+    //   description: "👷🏻‍♂️🛠️🏗️",
+    //   logo: YearProgressLogo,
+    //   videoSrc: "",
+    //   gifSrc: "coming-soon.gif",
+    //   link: {
+    //     label: "Coming Soon..",
+    //     href: "",
+    //   },
+    // },
   ],
   certificates: [
     {
