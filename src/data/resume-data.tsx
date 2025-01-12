@@ -24,8 +24,8 @@ export const RESUME_DATA = {
   initials: "BTA",
   location: "Tangerang, Indonesia",
   locationLink: "https://maps.app.goo.gl/r1GWdXdbT4KYFaEW9",
-  about:
-    "📱 iOS Developer | Apple Developer Academy Alumni | Passionate About Building User-Centric Apps 📱\n\nHi, I’m iOS Developer! I hold a degree in Information Technology from Syarif Hidayatullah State Islamic University Jakarta. I completed a two-year internship at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.",
+  // about:
+  //   "📱 iOS Developer | Apple Developer Academy Alumni | Passionate About Building User-Centric Apps 📱\n\nHi, I’m iOS Developer! I hold a degree in Information Technology from Syarif Hidayatullah State Islamic University Jakarta. I completed a two-year internship at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.",
   summary:
     "After a three-year break focused on personal growth, I rediscovered my passion for iOS development and have been actively honing my skills in Swift and UIKit by working on both personal and team projects.\n\n🌟 What I Bring:\n- Experienced in Swift, UIKit, and Apple development tools\n- Experience collaborating on app development projects\n- Strong problem-solving mindset and eagerness to grow\n\nI’m excited to contribute my skills and enthusiasm to a forward-thinking team as a Junior iOS Developer. Let’s connect and build something great together! 🚀",
   avatarUrl: "basit-profile.jpeg",
@@ -126,12 +126,38 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Badmintech - Apple Developer Academy Project",
+      techStack: [ " Apple Developer Academy", "Mobile Development", "Swift Programming Language", "Core ML", "Create ML", "Core Motion", "Core Data", "Replay Kit", "AV Foundation", "Watch Kit", "Health Kit", "MVC", "Git"
+      ],
+      description: "During pandemic Covid-19 we help people for staying healthy. Badmintech helps beginners play badminton by detecting, giving evaluation of player movement, and basic theory of badminton. (iPhone & Apple Watch | in a team of 6)",
+      logo: ConsultlyLogo,
+      videoSrc: 'badmintech.mp4',
+      gifSrc: '',
+      link: {
+        label: "Badmintech",
+        href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
+      },
+    },
+    {
+      title: "Clima - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Core Location", "URL Session", "MVC", "Git"
+      ],
+      description: "Prepare your uniform before its getting cold! 🥶",
+      logo: ConsultlyLogo,
+      videoSrc: 'clima.mp4',
+      gifSrc: '',
+      link: {
+        label: "Badmintech",
+        href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
+      },
+    },
+    {
       title: "Tasty Food - Solo Project",
       techStack: ["FE Web Development", "Javascript Programming Language", "React JS", "Vite", "Tailwind CSS", "Material UI", "Git"],
       description:
       "Responsive Web that provides various food recipes from many countries all over the world. Getting API data from https://www.themealdb.com.",
       logo: Minimal,
-      videoSrc: 'menu-new.mov',
+      videoSrc: 'menu-new.mp4',
       gifSrc: '',
       link: {
         label: "Tasty Food",
@@ -144,7 +170,7 @@ export const RESUME_DATA = {
       description:
       "Responsive Shoes Website - Landing Page Design",
       logo: Minimal,
-      videoSrc: 'sepatu-new.mov',
+      videoSrc: 'sepatu-new.mp4',
       gifSrc: '',
       link: {
         label: "Toko Sepatu Boss",
@@ -156,7 +182,7 @@ export const RESUME_DATA = {
       techStack: ["FE Web Development", "Javascript Programming Language", "Node JS", "Bootstrap", "Express.js", "MongoDB", "Mongoose", "Git"],
       description: "Small commerce for selling betta fish",
       logo: YearProgressLogo,
-      videoSrc: 'betta-fish.mov',
+      videoSrc: 'betta-fish.mp4',
       gifSrc: '',
       link: {
         label: "Betta Fish Commerce - Solo Project",
@@ -169,7 +195,7 @@ export const RESUME_DATA = {
       description:
       "New student admission system in Pondok Tahfidz Nuraini Tangerang, using combination of SAW & TOPSIS Methodologies",
       logo: BarepapersLogo,
-      videoSrc: 'spk-new.mov',
+      videoSrc: 'spk-new.mp4',
       gifSrc: '',
       link: {
         label: "Admission System Aplication (Pondok Yatim Nuraini)",
@@ -526,57 +552,4 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1B7CZJOwh-BgV1CKlOEGJ78-UjgYk3mk8",
-      },
-    },
-    {
-      title: "Through the Era of Digital Revolution",
-      techStack: ["IT Webinar","Permira Kazan"],
-      description:
-      "",
-      logo: Minimal,
-      videoSrc: "",
-      link: {
-        label: "Certificate",
-        href: "",
-      },
-      imgLink: {
-        label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1tFlrocUBCbkvrQS-fc3kE2mc8MUJjADw",
-      },
-    },
-    {
-      title: "Road to Congress Permira XIX",
-      techStack: ["IT Seminar","Permira Kazan"],
-      description:
-      "",
-      logo: Minimal,
-      videoSrc: "",
-      link: {
-        label: "Certificate",
-        href: "",
-      },
-      imgLink: {
-        label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1IK9-d_iu4RtImhhjBV__5SuM0jKMCVuu",
-      },
-    },
-    {
-      title: "Building Business with Technology",
-      techStack: ["IT Seminar","HIMTI UIN JAKARTA"],
-      description:
-      "",
-      logo: Minimal,
-      videoSrc: "",
-      link: {
-        label: "Certificate",
-        href: "",
-      },
-      imgLink: {
-        label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1rillIH4rU1h62-8VHrgTgZNC58sDkpBU",
-      },
-    },
-  ],
-
-} as const;
+        href: "https://lh3.googleuserco

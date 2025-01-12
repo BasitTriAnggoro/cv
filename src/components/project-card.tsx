@@ -48,8 +48,8 @@ export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, 
             videoSrc ? 
               <video
                 src={videoSrc ? videoSrc : undefined}
-                // width="640px" 
-                // height="360px"
+                width="200px" 
+                // height="200px"
                 autoPlay={true}
                 controls={true}
                 loop={true}
@@ -61,9 +61,9 @@ export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, 
               :
               ''
           }
-          {
+          {/* {
             gifSrc ? <img src={gifSrc ? gifSrc : undefined} /> : ''
-          }
+          } */}
           <CardDescription className="font-mono text-xs">
             {description}
           </CardDescription>
