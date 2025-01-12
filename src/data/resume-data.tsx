@@ -147,8 +147,125 @@ export const RESUME_DATA = {
       videoSrc: 'clima.mp4',
       gifSrc: '',
       link: {
-        label: "Badmintech",
-        href: "https://drive.google.com/file/d/1gI6uVyxyQ0UdwhwHrnop6eJiUn4kvWui/view?usp=drive_link",
+        label: "Clima",
+        href: "https://github.com/BasitTriAnggoro/Clima",
+      },
+    },
+    {
+      title: "ByteCoin - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "URL Session", "MVC", "Git"
+      ],
+      description: "Get your BTC rate now! 🤑",
+      logo: ConsultlyLogo,
+      videoSrc: 'bytecoin.mp4',
+      gifSrc: '',
+      link: {
+        label: "ByteCoin",
+        href: "https://github.com/BasitTriAnggoro/Byte-Coin",
+      },
+    },
+    {
+      title: "Quizzler - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "MVC", "Git"
+      ],
+      description: "Choose your answer!",
+      logo: ConsultlyLogo,
+      videoSrc: 'quizzler.mp4',
+      gifSrc: '',
+      link: {
+        label: "Quizzler",
+        href: "https://github.com/BasitTriAnggoro/Quizzler",
+      },
+    },
+    {
+      title: "Xylophone - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "AVFoundation", "Git"
+      ],
+      description: "Convey your musical skill!",
+      logo: ConsultlyLogo,
+      videoSrc: 'xylophone.mp4',
+      gifSrc: '',
+      link: {
+        label: "Xylophone",
+        href: "https://github.com/BasitTriAnggoro/Xylophone",
+      },
+    },
+    {
+      title: "Tipsy - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Application for splitting bill with your friends",
+      logo: ConsultlyLogo,
+      videoSrc: 'tipsy.mp4',
+      gifSrc: '',
+      link: {
+        label: "Tipsy",
+        href: "https://github.com/BasitTriAnggoro/Tipsy",
+      },
+    },
+    {
+      title: "Dice - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Roll the dice! ",
+      logo: ConsultlyLogo,
+      videoSrc: 'Dice.mp4',
+      gifSrc: '',
+      link: {
+        label: "Dice",
+        href: "https://github.com/BasitTriAnggoro/Dice",
+      },
+    },
+    {
+      title: "Destini - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Choose story, based on user options",
+      logo: ConsultlyLogo,
+      videoSrc: 'Destini.mp4',
+      gifSrc: '',
+      link: {
+        label: "Destini",
+        href: "https://github.com/BasitTriAnggoro/Destini",
+      },
+    },
+    {
+      title: "BMICalculator - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Application for counting the BMI",
+      logo: ConsultlyLogo,
+      videoSrc: 'bmicalculator.mp4',
+      gifSrc: '',
+      link: {
+        label: "BMICalculator",
+        href: "https://github.com/BasitTriAnggoro/BMI-Calculator",
+      },
+    },
+    {
+      title: "EggTimer - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Enjoy your egg fellas!",
+      logo: ConsultlyLogo,
+      videoSrc: 'eggtimer.mp4',
+      gifSrc: '',
+      link: {
+        label: "EggTimer",
+        href: "https://github.com/BasitTriAnggoro/Egg-Timer",
+      },
+    },
+    {
+      title: "GoPlan - Solo Project",
+      techStack: [ "Mobile Development", "Swift Programming Language", "Git"
+      ],
+      description: "Plan and stay motivate 😊",
+      logo: ConsultlyLogo,
+      videoSrc: 'goplan.mp4',
+      gifSrc: '',
+      link: {
+        label: "GoPlan",
+        href: "https://github.com/BasitTriAnggoro/Go-Plan",
       },
     },
     {
@@ -552,4 +669,57 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleuserco
+        href: "https://lh3.googleusercontent.com/d/1B7CZJOwh-BgV1CKlOEGJ78-UjgYk3mk8",
+      },
+    },
+    {
+      title: "Through the Era of Digital Revolution",
+      techStack: ["IT Webinar","Permira Kazan"],
+      description:
+      "",
+      logo: Minimal,
+      videoSrc: "",
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1tFlrocUBCbkvrQS-fc3kE2mc8MUJjADw",
+      },
+    },
+    {
+      title: "Road to Congress Permira XIX",
+      techStack: ["IT Seminar","Permira Kazan"],
+      description:
+      "",
+      logo: Minimal,
+      videoSrc: "",
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1IK9-d_iu4RtImhhjBV__5SuM0jKMCVuu",
+      },
+    },
+    {
+      title: "Building Business with Technology",
+      techStack: ["IT Seminar","HIMTI UIN JAKARTA"],
+      description:
+      "",
+      logo: Minimal,
+      videoSrc: "",
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "https://lh3.googleusercontent.com/d/1rillIH4rU1h62-8VHrgTgZNC58sDkpBU",
+      },
+    },
+  ],
+
+} as const;
