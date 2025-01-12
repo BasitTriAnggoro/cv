@@ -26,6 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/r1GWdXdbT4KYFaEW9",
   // about:
   //   "📱 iOS Developer | Apple Developer Academy Alumni | Passionate About Building User-Centric Apps 📱\n\nHi, I’m iOS Developer! I hold a degree in Information Technology from Syarif Hidayatullah State Islamic University Jakarta. I completed a two-year internship at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.",
+  about: "",
   summary:
     "After a three-year break focused on personal growth, I rediscovered my passion for iOS development and have been actively honing my skills in Swift and UIKit by working on both personal and team projects.\n\n🌟 What I Bring:\n- Experienced in Swift, UIKit, and Apple development tools\n- Experience collaborating on app development projects\n- Strong problem-solving mindset and eagerness to grow\n\nI’m excited to contribute my skills and enthusiasm to a forward-thinking team as a Junior iOS Developer. Let’s connect and build something great together! 🚀",
   avatarUrl: "basit-profile.jpeg",
