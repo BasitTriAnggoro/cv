@@ -22,6 +22,7 @@ interface Props {
 export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, imgLink }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
+      {/* Header */}
       <CardHeader className="">
         <div className="space-y-1">
           <img src={imgLink} alt="" />  

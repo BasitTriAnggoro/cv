@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   //   "📱 iOS Developer | Apple Developer Academy Alumni | Passionate About Building User-Centric Apps 📱\n\nHi, I’m iOS Developer! I hold a degree in Information Technology from Syarif Hidayatullah State Islamic University Jakarta. I completed a two-year internship at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.",
   about: "",
   summary:
-    "After a three-year break focused on personal growth, I rediscovered my passion for iOS development and have been actively honing my skills in Swift and UIKit by working on both personal and team projects.\n\n🌟 What I Bring:\n- Experienced in Swift, UIKit, and Apple development tools\n- Experience collaborating on app development projects\n- Strong problem-solving mindset and eagerness to grow\n\nI’m excited to contribute my skills and enthusiasm to a forward-thinking team as a Junior iOS Developer. Let’s connect and build something great together! 🚀",
+    "Completed a two-year scholarship program at Apple Developer Academy, including Apple Catalyst Program (Startup Acceleration), where I gained hands-on experience in building impactful iOS applications.\n\n🌟 What I Bring:\n- Experienced in mobile apps development (iOS) using Agile Methodology\n- Experience collaborating on app development projects\n- Strong problem-solving mindset and eagerness to grow\n\nI’m excited to contribute my skills and enthusiasm to a forward-thinking team as an iOS Developer. Let’s connect and build something great together! 🚀",
   avatarUrl: "basit-profile.jpeg",
   personalWebsiteUrl: "__",
   contact: {
@@ -67,26 +67,26 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-    {
-      company: "Online Shops Owner",
-      link: "",
-      badges: ["Full-time"],
-      title: "Tiktokshop, Lazada, Shopee Seller",
-      logo: NSNLogo,
-      start: "2020",
-      end: "2024",
-      description: "Selling products via Tiktokshop, Lazada & Shopee. Managing & running all activity in my online shop from doing research, marketing, selling, etc.",
-    },
+    // {
+    //   company: "Online Shops Owner",
+    //   link: "",
+    //   badges: ["Full-time"],
+    //   title: "Tiktokshop, Lazada, Shopee Seller",
+    //   logo: NSNLogo,
+    //   start: "2020",
+    //   end: "2024",
+    //   description: "Selling products via Tiktokshop, Lazada & Shopee. Managing & running all activity in my online shop from doing research, marketing, selling, etc.",
+    // },
     {
       company: " Apple Catalyst Program (Homeplan Startup)",
-      link: "",
+      link: "https://developeracademy.apps.binus.ac.id/",
       badges: ["Hybrid - Fulltime"],
       title: "iOS Developer & Co-Founder",
       logo: JojoMobileLogo,
       start: "2020",
       end: "2021",
       description:
-      "What i've done:\n- iOS Development: Swift, UIKit, AVKit, Responsive Design, MVVM, Agile Methodologies, etc.\n- Tools: Xcode, Jira, Trello, Notion, Miro, Github, Slack, etc.\n- Business model, monetization plan, marketing funnel, Apple marketing guideline, understanding how to analyze the market, UAT, research, etc.\n- Build startup as a team (7 persons) for iPhone, iPad and Android App as COO (create founder agreement, documentations, handle internal problems, etc).\n\nWe create & develop a renovation app (Homeplan for iPhone & iPad). This app created from real world problems in the renovation process come from ideation through long process.",
+      "What i've done:\n• iOS Development: Swift Programming Language, UIKit, AVKit, Responsive Design, MVVM, Agile Methodologies, etc.\n• Tools: Xcode, Jira, Trello, Notion, Miro, Github, Slack, etc.\n• Business model, monetization plan, marketing funnel, Apple marketing guideline, understanding how to analyze the market, UAT, research, etc.\n• Build startup as a team (7 persons) for iPhone, iPad and Android App as COO (create founder agreement, documentations, handle internal problems, etc).\n\nApple Catalyst Program is the second year program from Apple Developer Academy. We joined this program as a limited startup team come from the first year program.",
     },
     {
       company: " Apple Developer Academy | Indonesia",
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
       description:
-      "What i've done: \n- iOS Development: Swift, UIKit, AVFoundation, MVC, HIG, Agile Methodologies, Teamwork.\n- Tools: Xcode, Jira, Trello, Notion, Miro, Github, Slack, Sketch, etc.\n- Understanding foundation of Apple Design, Coding & Business.\n\nCreated some applications both personal & team projects.",
+      "What i've done:\n• iOS Development: Swift, UIKit, AVFoundation, MVC, HIG, Agile Methodologies, Teamwork.\n• Tools: Xcode, Jira, Trello, Notion, Miro, Github, Slack, Sketch, etc.\n• Understanding foundation of Apple Design, Coding & Business.\n\nApple Developer Academy is a scholarship program organized by Apple. We learn to use the CBL framework to find solutions based on problems through a systematic & long thinking process. We are used to making applications based on real existing problems and supported by data through research according to the needs & problems that have been found.",
     },
     {
       company: "PT Mozaik Bintang Persada",
@@ -108,17 +108,16 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2019",
       description:
-        "PT. Mozaik Bintang Persada is a software house based in Ciledug, Tangerang.\n\nWhat i've done:\n- Learned about Laravel Framework and served data for creating mobile app backend.\n- Worked as a team of 3 persons for developing Dare App (app for making kids brave).",
+        "What i've done:\n• Learned about Laravel Framework and served data for creating mobile app backend.\n• Worked as a team of 3 persons for developing Dare App (app for making kids brave).\n\nPT. Mozaik Bintang Persada is a software house based in Ciledug, Tangerang.",
     },
   ],
   skills: [
     "Agile Application Development",
     "iOS Mobile Development (Swift)",
     "Collaboration Tools (Git, Jira, Trello, Notion, etc)",
-    "Front-End Web Development (React JS)"
-    // "Tailwind CSS",
-    // "Bootstrap",
-    // "Laravel",
+    "Front-End Web Development (React JS, Tailwind, Bootstrap)",
+    "Others: Laravel, Ms. Office, Digital Marketing",
+    "Critical Thinking, Problem Solver, Teamwork, Time Management"
   ],
   projects: [
     {
@@ -148,8 +147,21 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Sleepy",
+      techStack: [" Apple Developer Academy", "Swift (iOS Mobile App)", "UI Kit", "AVFoundation", "MVC", "Git"],
+      description:
+        "An app to make you fall asleep quickly and wake up refreshed. Enjoy a large variety of nature sounds, instrumental sounds and meditation techniques to create your own bedtime experience. (iPhone | in a team of 4)",
+      logo: JarockiMeLogo,
+      videoSrc: "sleepy.mp4",
+      gifSrc: '',
+      link: {
+        label: "Sleepy",
+        href: "https://github.com/BasitTA/sleepy",
+      },
+    },
+    {
       title: "Clima",
-      techStack: [ "Swift (iOS Mobile App)", "Core Location", "URL Session", "MVC", "Git"
+      techStack: [ "Personal Project","Swift (iOS Mobile App)", "Core Location", "URL Session", "MVC", "Git"
       ],
       description: "Prepare your uniform before its getting cold! 🥶",
       logo: ConsultlyLogo,
@@ -162,7 +174,7 @@ export const RESUME_DATA = {
     },
     {
       title: "ByteCoin",
-      techStack: [ "Swift (iOS Mobile App)", "URL Session", "MVC", "Git"
+      techStack: [ "Personal Project","Swift (iOS Mobile App)", "URL Session", "MVC", "Git"
       ],
       description: "Get your BTC rate now! 🤑",
       logo: ConsultlyLogo,
@@ -175,7 +187,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Quizzler",
-      techStack: [ "Swift (iOS Mobile App)", "MVC", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "MVC", "Git"
       ],
       description: "Choose your answer!",
       logo: ConsultlyLogo,
@@ -188,7 +200,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Xylophone",
-      techStack: [ "Swift (iOS Mobile App)", "AVFoundation", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "AVFoundation", "Git"
       ],
       description: "Convey your musical skill!",
       logo: ConsultlyLogo,
@@ -201,7 +213,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Tipsy",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "Git"
       ],
       description: "Application for splitting bill with your friends",
       logo: ConsultlyLogo,
@@ -212,35 +224,35 @@ export const RESUME_DATA = {
         href: "https://github.com/BasitTriAnggoro/Tipsy",
       },
     },
-    {
-      title: "Dice",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
-      ],
-      description: "Roll the dice! ",
-      logo: ConsultlyLogo,
-      videoSrc: 'Dice.mp4',
-      gifSrc: '',
-      link: {
-        label: "Dice",
-        href: "https://github.com/BasitTriAnggoro/Dice",
-      },
-    },
-    {
-      title: "Destini",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
-      ],
-      description: "Choose story, based on user options",
-      logo: ConsultlyLogo,
-      videoSrc: 'Destini.mp4',
-      gifSrc: '',
-      link: {
-        label: "Destini",
-        href: "https://github.com/BasitTriAnggoro/Destini",
-      },
-    },
+    // {
+    //   title: "Dice",
+    //   techStack: [ "Swift (iOS Mobile App)", "Git"
+    //   ],
+    //   description: "Roll the dice! ",
+    //   logo: ConsultlyLogo,
+    //   videoSrc: 'Dice.mp4',
+    //   gifSrc: '',
+    //   link: {
+    //     label: "Dice",
+    //     href: "https://github.com/BasitTriAnggoro/Dice",
+    //   },
+    // },
+    // {
+    //   title: "Destini",
+    //   techStack: [ "Swift (iOS Mobile App)", "Git"
+    //   ],
+    //   description: "Choose story, based on user options",
+    //   logo: ConsultlyLogo,
+    //   videoSrc: 'Destini.mp4',
+    //   gifSrc: '',
+    //   link: {
+    //     label: "Destini",
+    //     href: "https://github.com/BasitTriAnggoro/Destini",
+    //   },
+    // },
     {
       title: "BMICalculator",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "Git"
       ],
       description: "Application for counting the BMI",
       logo: ConsultlyLogo,
@@ -253,7 +265,7 @@ export const RESUME_DATA = {
     },
     {
       title: "EggTimer",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "Git"
       ],
       description: "Enjoy your egg fellas!",
       logo: ConsultlyLogo,
@@ -266,7 +278,7 @@ export const RESUME_DATA = {
     },
     {
       title: "GoPlan",
-      techStack: [ "Swift (iOS Mobile App)", "Git"
+      techStack: [ "Personal Project", "Swift (iOS Mobile App)", "Git"
       ],
       description: "Plan and stay motivate 😊",
       logo: ConsultlyLogo,
@@ -279,7 +291,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Tasty Food",
-      techStack: ["React JS (Front-end Website)", "Vite", "Tailwind CSS", "Material UI", "Git"],
+      techStack: ["Personal Project", "React JS (Front-end Website)", "Vite", "Tailwind CSS", "Material UI", "Git"],
       description:
       "Responsive Web that provides various food recipes from many countries all over the world. Getting API data from https://www.themealdb.com.",
       logo: Minimal,
@@ -292,7 +304,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Toko Sepatu Boss",
-      techStack: ["React JS (Front-end Website)", "create-react-app", "Bootstrap", "Git"],
+      techStack: ["Personal Project", "React JS (Front-end Website)", "create-react-app", "Bootstrap", "Git"],
       description:
       "Responsive Shoes Website - Landing Page Design",
       logo: Minimal,
@@ -305,7 +317,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Betta Fish Commerce",
-      techStack: ["Node JS (Website App)", "Bootstrap", "Express.js", "MongoDB", "Mongoose", "Git"],
+      techStack: ["Personal Project", "Node JS (Website App)", "Bootstrap", "Express.js", "MongoDB", "Mongoose", "Git"],
       description: "Small commerce for selling betta fish",
       logo: YearProgressLogo,
       videoSrc: 'betta-fish.mp4',
@@ -317,7 +329,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Student Admission System",
-      techStack: ["Thesis Assignment", "PHP (Website App)", "Laravel", "Bootstrap", "SAW Method", "TOPSIS Method", "Git"],
+      techStack: ["Thesis Assignment (Solo Project)", "PHP (Website App)", "Laravel", "Bootstrap", "SAW Method", "TOPSIS Method", "Git"],
       description:
       "New student admission system in Pondok Tahfidz Nuraini Tangerang, using combination of SAW & TOPSIS Methodologies",
       logo: BarepapersLogo,
@@ -342,27 +354,14 @@ export const RESUME_DATA = {
     //   },
     // },
     {
-      title: "Sleepy - Apple Developer Academy Project",
-      techStack: [" Apple Developer Academy", "Swift (iOS Mobile App)", "UI Kit", "AVFoundation", "MVC", "Git"],
-      description:
-        "An app to make you fall asleep quickly and wake up refreshed. Enjoy a large variety of nature sounds, instrumental sounds and meditation techniques to create your own bedtime experience. (iPhone | in a team of 4)",
-      logo: JarockiMeLogo,
-      videoSrc: "",
-      gifSrc: '',
-      link: {
-        label: "Sleepy",
-        href: "https://github.com/BasitTA/sleepy",
-      },
-    },
-    {
-      title: "Dare App - Internship Project (PT. Mozaik Bintang Persada)",
-      techStack: ["PHP (for Mobile App)", "Laravel", "Git"],
+      title: "Dare App",
+      techStack: ["Internship Project", "PHP (for Mobile App)", "Laravel", "Git"],
       description: "Provide information to make children dare about challenges in their live",
       logo: YearProgressLogo,
       videoSrc: "",
       gifSrc: '',
       link: {
-        label: "Dare App - Mozaik Project",
+        label: "Dare App",
         href: "https://github.com/BasitTA/projek-mozaik/",
       },
     },
@@ -381,8 +380,9 @@ export const RESUME_DATA = {
   ],
   certificates: [
     {
-      title: "Apple Developer Academy Internship - iOS Developer",
-      techStack: ["Internship","Apple"],
+      title: "",
+      // title: "",
+      techStack: ["Swift(iOS Dev)", " Apple Developer Academy"],
       description:
       "",
       logo: Minimal,
@@ -393,12 +393,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1JhbcJQHjcn2QZ4Xf00TrcbvBnNPg1ZhJ",
+        href: "/certificates/swift1.png",
       },
     },
     {
-      title: "The Ultimate React Course 2024: React, Next.js, Redux, & More",
-      techStack: ["IT Certificate","Udemy"],
+      title: "",
+      // title: "Swift Tutorial",
+      techStack: ["Swift(iOS Dev)", "Great Learning Academy"],
       description:
       "",
       logo: Minimal,
@@ -409,12 +410,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1hFbRkUXDw0aJxV80JCCazsYpJecfk7q6",
+        href: "/certificates/swift.png",
       },
     },
     {
-      title: "The Web Developer Bootcamp 2024",
-      techStack: ["IT Certificate","Udemy"],
+      title: "",
+      // title: "Basics of Scrum, Agile, and Project Delivery",
+      techStack: ["Agile Methodology","Udemy"],
       description:
       "",
       logo: Minimal,
@@ -425,12 +427,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1go8h5-mKJzyn6xq0ZzJLMfJNXGFk-Fsw",
+        href: "/certificates/scrum2.png",
       },
     },
     {
-      title: "React, Angular, Vue.js by Example",
-      techStack: ["IT Certificate","Udemy"],
+      title: "",
+      // title: "Scrum Fundamentals Certified",
+      techStack: ["Agile Methodology","SCRUMstudy"],
       description:
       "",
       logo: Minimal,
@@ -441,12 +444,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/13YRh1pGUIU4FfeqTrBgPtZEg7XiK5I0F",
+        href: "/certificates/scrum.png",
       },
     },
     {
-      title: "Web Design for Web Developers: Build Beautiful Websites",
-      techStack: ["IT Certificate","Udemy"],
+      title: "",
+      // title: "Software Development Fundamentals",
+      techStack: ["Software Development Fundamental","Multimatics"],
       description:
       "",
       logo: Minimal,
@@ -457,12 +461,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/16wUTTzt2f5HPsUEypEJRo0Ojfr_20a9c",
+        href: "/certificates/sdf2.png",
       },
     },
     {
-      title: "Basics of Scrum, Agile, and Project Delivery",
-      techStack: ["IT Certificate","Udemy"],
+      title: "",
+      // title: "Software Development Fundamentals",
+      techStack: ["Software Development Fundamental", "Microsoft Technology Associate"],
       description:
       "",
       logo: Minimal,
@@ -473,12 +478,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1BYUeQUFGZHeqNZ0iejARJkwU_RFz6kkE",
+        href: "/certificates/sdf.png",
       },
     },
     {
-      title: "Scrum Fundamentals Certified",
-      techStack: ["IT Certificate","SCRUMstudy"],
+      title: "",
+      // title: "The Ultimate React Course 2024: React, Next.js, Redux, & More",
+      techStack: ["FE Web Dev","Udemy"],
       description:
       "",
       logo: Minimal,
@@ -489,12 +495,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1FPkiLYIk6c8L_ldg9WZr6dYOm7LTUaqj",
+        href: "/certificates/webdev9.png",
       },
     },
     {
-      title: "Jadi Fullstack Web Developer dari Front End sampai Back End”",
-      techStack: ["IT Webinar","Edspert.id"],
+      title: "",
+      // title: "The Web Developer Bootcamp 2024",
+      techStack: ["FE Web Dev","Udemy"],
       description:
       "",
       logo: Minimal,
@@ -505,12 +512,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1o28oJZTLgYxUD94PeKbG-hC_OmJMu0Ji",
+        href: "/certificates/webdev3.png",
       },
     },
     {
-      title: "Software Development Engineer In Test: Backend & Frontend Testing 101",
-      techStack: ["IT Webinar","Alterra"],
+      title: "",
+      // title: "React, Angular, Vue.js by Example",
+      techStack: ["FE Web Dev","Udemy"],
       description:
       "",
       logo: Minimal,
@@ -521,12 +529,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1foKWYoyQKaaWYuFu83IeWD1zn1yNl2wm",
+        href: "/certificates/webdev7.png",
       },
     },
     {
-      title: "JavaScript Intermediate",
-      techStack: ["IT Certificate","Sololearn"],
+      title: "",
+      // title: "Web Design for Web Developers: Build Beautiful Websites",
+      techStack: ["FE Web Dev","Udemy"],
       description:
       "",
       logo: Minimal,
@@ -537,12 +546,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/11xWYs13eKjCjuG_XYJ9Nrv2ODLdeuWol",
+        href: "/certificates/webdev.png",
       },
     },
     {
-      title: "Introduction to JavaScript",
-      techStack: ["IT Certificate","Sololearn"],
+      title: "",
+      // title: "Jadi Fullstack Web Developer dari Front End sampai Back End”",
+      techStack: ["Web Dev","Edspert.id"],
       description:
       "",
       logo: Minimal,
@@ -553,12 +563,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/12umQZT60BtSt7h6xugxJir10yOP6627q",
+        href: "/certificates/webdev2.png",
       },
     },
     {
-      title: "Software Development Fundamentals",
-      techStack: ["IT Certificate","Multimatics"],
+      title: "",
+      // title: "Software Development Engineer In Test: Backend & Frontend Testing 101",
+      techStack: ["Web Dev","Alterra"],
       description:
       "",
       logo: Minimal,
@@ -569,12 +580,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/18MZeJNUpQfoKi_fx-cmNEpLdxLAVagnY",
+        href: "/certificates/webdev8.png",
       },
     },
     {
-      title: "Software Development Fundamentals",
-      techStack: ["IT Certificate","Microsoft Technology Associate"],
+      title: "",
+      // title: "JavaScript Intermediate",
+      techStack: ["Web Dev","Sololearn"],
       description:
       "",
       logo: Minimal,
@@ -585,12 +597,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1fOlvoB3D1JwpnqFWkCIqVnClfl8i75rh",
+        href: "/certificates/webdev6.png",
       },
     },
     {
-      title: "HTML5 Application Development Fundamentals",
-      techStack: ["IT Certificate","Microsoft Technology Associate"],
+      title: "",
+      // title: "Introduction to JavaScript",
+      techStack: ["Web Dev","Sololearn"],
       description:
       "",
       logo: Minimal,
@@ -601,12 +614,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1GEI-QS95cFVbQk1OdboOo6aLCv4s_7f0",
+        href: "/certificates/webdev5.png",
       },
     },
     {
-      title: "Clean Code Principles with Java & Getting Started with Spring Boot",
-      techStack: ["IT Webinar","HIMIT PENS x Blibli"],
+      title: "",
+      // title: "HTML5 Application Development Fundamentals",
+      techStack: ["Web Dev","Microsoft Technology Associate"],
       description:
       "",
       logo: Minimal,
@@ -617,12 +631,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1Qx2pcrQDbUS9uWr7n4J2SPnf-Ko5fosj",
+        href: "/certificates/webdev4.png",
       },
     },
     {
-      title: "Telecom Customer Churn Prediction Using Machine Learning & Python",
-      techStack: ["IT Webinar","Boot Up"],
+      title: "",
+      // title: "Clean Code Principles with Java & Getting Started with Spring Boot",
+      techStack: ["Java","HIMIT PENS x Blibli"],
       description:
       "",
       logo: Minimal,
@@ -633,11 +648,29 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1nsUX89J7jHWaFS2s_79bC-oRr5eml4k4",
+        href: "/certificates/java.png",
       },
     },
     {
-      title: "Foundation of Digital Marketing and E-commerce",
+      title: "",
+      // title: "Telecom Customer Churn Prediction Using Machine Learning & Python",
+      techStack: ["Python","BootUP"],
+      description:
+      "",
+      logo: Minimal,
+      videoSrc: "",
+      link: {
+        label: "Certificate",
+        href: "",
+      },
+      imgLink: {
+        label: "Certificate",
+        href: "/certificates/python.png",
+      },
+    },
+    {
+      title: "",
+      // title: "Foundation of Digital Marketing and E-commerce",
       techStack: ["Digital Marketing","Coursera"],
       description:
       "",
@@ -649,11 +682,12 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1Mj7By5cD8Ku5gdsjff8wmWbeOBqTWNhx",
+        href: "/certificates/digitalmarketing2.png",
       },
     },
     {
-      title: "Attract and Engage Customers with Digital Marketing",
+      title: "",
+      // title: "Attract and Engage Customers with Digital Marketing",
       techStack: ["Digital Marketing","Coursera"],
       description:
       "",
@@ -665,12 +699,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1B7CZJOwh-BgV1CKlOEGJ78-UjgYk3mk8",
+        href: "/certificates/digitalmarketing1.png",
       },
     },
     {
-      title: "Through the Era of Digital Revolution",
-      techStack: ["IT Webinar","Permira Kazan"],
+      title: "",
+      // title: "Through the Era of Digital Revolution",
+      techStack: ["Information Technology","Himti"],
       description:
       "",
       logo: Minimal,
@@ -681,12 +716,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1tFlrocUBCbkvrQS-fc3kE2mc8MUJjADw",
+        href: "/certificates/himti2.png",
       },
     },
     {
-      title: "Road to Congress Permira XIX",
-      techStack: ["IT Seminar","Permira Kazan"],
+      title: "",
+      // title: "Road to Congress Permira XIX",
+      techStack: ["Information Technology","Permira Kazan"],
       description:
       "",
       logo: Minimal,
@@ -697,12 +733,13 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1IK9-d_iu4RtImhhjBV__5SuM0jKMCVuu",
+        href: "/certificates/himti3.png",
       },
     },
     {
-      title: "Building Business with Technology",
-      techStack: ["IT Seminar","HIMTI UIN JAKARTA"],
+      title: "",
+      // title: "Building Business with Technology",
+      techStack: ["Business Technology","HIMTI UIN JAKARTA"],
       description:
       "",
       logo: Minimal,
@@ -713,7 +750,7 @@ export const RESUME_DATA = {
       },
       imgLink: {
         label: "Certificate",
-        href: "https://lh3.googleusercontent.com/d/1rillIH4rU1h62-8VHrgTgZNC58sDkpBU",
+        href: "/certificates/himti.png",
       },
     },
   ],
