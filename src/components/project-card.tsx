@@ -51,10 +51,10 @@ export function ProjectCard({ title, description, tags, link, gifSrc, videoSrc, 
                   width="150px" 
                   // height="200px"
                   autoPlay={true}
-                  controls={false}
+                  controls={true}
                   loop={true}
                   muted={true}
-                  // playsInline={false}
+                  playsInline={false}
                   // poster="https://via.placeholder.com/640x360.png?text=Video+Placeholder"
                 >
                   Your browser does not support the video tag.
