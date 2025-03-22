@@ -159,7 +159,7 @@ export const RESUME_DATA = {
       gifSrc: '',
       link: {
         label: "Sleepy",
-        href: "https://github.com/BasitTA/sleepy",
+        href: "https://github.com/BasitTriAnggoro/sleepy",
       },
     },
     {
@@ -327,7 +327,7 @@ export const RESUME_DATA = {
       gifSrc: '',
       link: {
         label: "Betta Fish Commerce - Solo Project",
-        href: "https://github.com/BasitTA/bettaFish-commerce",
+        href: "https://github.com/BasitTriAnggoro/bettaFish-commerce",
       },
     },
     {
@@ -340,7 +340,7 @@ export const RESUME_DATA = {
       gifSrc: '',
       link: {
         label: "Admission System Aplication (Pondok Yatim Nuraini)",
-        href: "https://github.com/BasitTA/spk-ptn",
+        href: "https://github.com/BasitTriAnggoro/spk-ptn",
       },
     },
     // {
@@ -365,7 +365,7 @@ export const RESUME_DATA = {
       gifSrc: '',
       link: {
         label: "Dare App",
-        href: "https://github.com/BasitTA/projek-mozaik/",
+        href: "https://github.com/BasitTriAnggoro/projek-mozaik/",
       },
     },
     // {
